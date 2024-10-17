@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    background-color: #17192B;
+    color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+#table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    font-weight: bold;
+    font-size: larger;
+    border: 2px solid darkred;
+}
+
+#extract {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+p {
+   font-weight: bold;
+   font-size: xx-large ;
+}
