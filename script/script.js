@@ -29,9 +29,9 @@ const genTable = generateTable()
 const buttonClick = function () {
   const button = document.getElementById("extract")
   button.addEventListener("click", function () {
-    n = numbers[Math.floor(Math.random() * numbers.length)]
-    console.log(n)
-    numbers.splice(n, 1)
+    let n = numbers[Math.floor(Math.random() * numbers.length)]
+    numbers.splice(numbers.indexOf(n), 1)
+    console.log(numbers)
     extrNum.push(n)
     document.getElementById("extractedNumbers").textContent = extrNum.join(", ")
     document.getElementById("number" + n).style.backgroundColor = "#0D1117"
